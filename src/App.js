@@ -7,6 +7,7 @@ import SecondHandMarket from './Pages/second.js';
 import Product from './Pages/Product.js'
 import Login from './Pages/login.js'
 import Cart from './Pages/cart.js'
+import Footer from './components/Footer/Footer.js'
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,7 @@ function App() {
           <Route path='/cart' element={<Cart/>}/>
           <Route path='/login' element={<Login/>}/>
          </Routes>
+         <Footer/>
          </BrowserRouter>
     </div>
   );
