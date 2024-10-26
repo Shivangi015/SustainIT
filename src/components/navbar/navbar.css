@@ -1,0 +1,73 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    box-shadow: 0 1px 3px -2px black;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-logo p{
+    color: #292727;
+    font-size: 30px;
+    font-weight: 600;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    cursor: pointer;
+}
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #ff4141;
+}
+.login{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    cursor: pointer;
+}
+.login button{
+    width: 130px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 40px;
+    color: #515151;
+    font-size: 15px;
+    background-color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.login button:active{
+    background: #f3f3f3;
+}
+.cart-count{
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -28px;
+    margin-left: -50px;
+    border-radius: 30px;
+    font-size: 10px;
+    background: red;
+    color: white;
+}
